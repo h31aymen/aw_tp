@@ -174,3 +174,9 @@ img{
 		transform: scale(1.01);
 		background-color: #cddc394a;
 	}}
+
+table:not(:first-of-type) + p{
+	text-align: right;
+	width: 90%;
+	margin: 5px auto;
+}
